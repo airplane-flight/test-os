@@ -19,6 +19,12 @@ modules:
     repos:
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
     install:
+      tailscale
+      zsh
+      git
+      mpd
+      ncmpcpp
+      tmux
       # - micro
       # - starship
     remove:
@@ -35,7 +41,13 @@ modules:
       # repo-name: flathub
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
-        # - org.mozilla.firefox
+      io.gitlab.news_flash.NewsFlash
+      com.nextcloud.desktopclient.nextcloud
+      md.obsidian.Obsidian
+      com.spotify.Client
+      tv.plex.PlexDesktop
+      org.kde.konsole
+      # - org.mozilla.firefox
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
