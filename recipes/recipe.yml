@@ -25,6 +25,7 @@ modules:
       mpd
       ncmpcpp
       tmux
+      btop
       # - micro
       # - starship
     remove:
